@@ -14,3 +14,7 @@ rsstomqtt.py - fetches an rss news feed, reads the latest headline and publishes
 clientrawmqttwd.py - fetches the feed from Weather Display and converts the data into text to publish
 
 Main script to run the eink display and show mqtt feeds:
+
+Version for the eink PHAT:
+
+Version for the eink WHAT:
