@@ -11,4 +11,6 @@ timetomqtt.py - gets the time, converts it to words and publishes to the mqtt to
 
 rsstomqtt.py - fetches an rss news feed, reads the latest headline and publishes to the mqtt topic
 
+clientrawmqttwd.py - fetches the feed from Weather Display and converts the data into text publish 
+
 Main script to run the eink display and show mqtt feeds:
