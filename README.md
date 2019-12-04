@@ -17,4 +17,8 @@ Main script to run the eink display and show mqtt feeds:
 
 Version for the eink PHAT:
 
+the_pi_phat.py
+
 Version for the eink WHAT:
+
+the_pi_what.py
