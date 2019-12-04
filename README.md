@@ -22,3 +22,5 @@ the_pi_phat.py
 Version for the eink WHAT:
 
 the_pi_what.py
+
+To check - font download, background images
