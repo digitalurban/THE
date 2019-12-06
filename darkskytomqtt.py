@@ -68,7 +68,7 @@ else :
 
 # Create the Output for THE
 
-output = "The Weather is " + current.summary + ", " + temp + " Degrees Centigrade," + " Pressure: " + pressure + " Mb," + " Wind " + windir + " " + wind + " Mph, " + forecast
+output = "The Weather is " + current.summary + ", " + temp  + "{}".format('\u00B0') + "C" + " Pressure: " + pressure + " Mb," + " Wind " + windir + " " + wind + " Mph, " + forecast
 print (output)
 
 print ("Publishing message to topic")
