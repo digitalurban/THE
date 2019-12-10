@@ -3,6 +3,8 @@ eInk mini MQTT Information Display for Time, Headlines and Environmental Data
 
 Files to setup an run an eink MQTT Information Display
 
+See https://www.connected-environments.org/making/the/ 
+
 Files are divided into two parts:
 
 Scripts to process data and send to MQTT via cron:
