@@ -76,7 +76,7 @@ print(timeprint)
 print("Publishing message to topic")
 
 
-client.publish("yourtopic/topic", str(time))  # topic to publish the time ie eink/messages
+client.publish("THE/messages", str(time))  # topic to publish the time ie eink/messages
   
 # This code is adapted from the original script at
 # https://sukhbinder.wordpress.com/2013/12/29/time-in-words-with-python/
