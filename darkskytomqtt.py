@@ -75,4 +75,4 @@ print ("Publishing message to topic")
 
 # Publish to MQTT
 
-client.publish("eink/home", output)  # topic to publish to
+client.publish("THE/messages", output)  # topic to publish to
