@@ -11,7 +11,7 @@ paho = paho.Client()
 # Settings for connection
 host = "your mqtt server" #  address of MQTT server
 topic= "eink/messages" # topic to subscribe to  - in our case eink/home
-port = 1883  # mqtt port  - normally 1883
+port = 1884  # mqtt port  - normally 1883
 username = "username"  # username if required
 password = "password"  # password if required
 
@@ -253,6 +253,4 @@ rc = 0
 while rc == 0:
     rc = paho.loop()
 print("rc: "+str(rc))
-print (msg.payload)
-
 
